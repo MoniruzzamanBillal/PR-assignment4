@@ -31,5 +31,5 @@ console.log(matchFinder("JavaScript", "Code"));
 console.log(matchFinder("Hello", ""));
 console.log(matchFinder("Hello", "World"));
 console.log(matchFinder("", "abc"));
-console.log(matchFinder("abc", ""));
+console.log(matchFinder("Peter Parker", "Pet"));
 console.log(matchFinder("", ""));
