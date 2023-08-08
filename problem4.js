@@ -17,7 +17,7 @@ function findAddress(obj) {
     society = "__";
   }
 
-  const result = `${street} , ${house} , ${society}`;
+  const result = `${street},${house},${society}`;
   return result;
 }
 
@@ -27,14 +27,16 @@ const address1 = {
   house: "15A",
   society: "Earth Perfect",
 };
+const address3 = {
+  street: 10,
 
-const address2 = { street: 10 };
+  society: "Earth Perfect",
+};
 
 console.log(findAddress(address1));
+console.log(findAddress(address3));
 console.log(
   findAddress({
-    street: 10,
     house: "15A",
-    society: "Earth Perfect",
   })
 );

@@ -1,6 +1,6 @@
 function matchFinder(string1, string2) {
   if (!string1 || !string2) {
-    return "Both input strings are required.";
+    return "Enter strings";
   }
 
   let i, j, k;
